@@ -46,52 +46,52 @@ lab7web_php/
 Halaman menampilkan teks "PHP berhasil dijalankan" dan waktu server. Kode PHP tidak tampil sebagai teks, artinya sudah dieksekusi oleh Apache.
 
 **Screenshot 1** – Output Latihan 1
-![Screenshot 1](screenshots/1.png)
+![Screenshot 1](screenshot/1.png)
 
 ### Latihan 2 – Variabel, Operator, Percabangan
 Nilai akhir = 30% tugas + 30% UTS + 40% UAS. Dengan tugas 85, UTS 78, UAS 90, nilai akhir 84,90 dan predikat B.
 
 **Screenshot 2** – Output Latihan 2
-![Screenshot 2](screenshots/2.png)
+![Screenshot 2](screenshot/2.png)
 
 ### Latihan 3 – Perulangan dan Array
 Array mahasiswa ditampilkan dengan `foreach` dalam daftar bernomor. Ditambahkan tiga nama baru (Eka, Fajar, Gita), total tujuh nama.
 
 **Screenshot 3** – Output Latihan 3
-![Screenshot 3](screenshots/3.png)
+![Screenshot 3](screenshot/3.png)
 
 ### Latihan 4 – Function
 `hitungDiskon()` menghasilkan Rp135.000 (150.000 diskon 10%). Ditambah `luasPersegiPanjang()` (8 × 5 = 40) dan `statusKelulusan()` (72 = Lulus, 45 = Tidak Lulus).
 
 **Screenshot 4** – Output Latihan 4
-![Screenshot 4](screenshots/4.png)
+![Screenshot 4](screenshot/4.png)
 
 ### Latihan 5 – Form GET
 Kata kunci "bekasi" dikirim lewat URL (`cari.php?kata=bekasi`) lalu ditampilkan kembali dengan `htmlspecialchars()`. GET tidak boleh dipakai untuk data sensitif karena datanya terlihat di URL.
 
 **Screenshot 5** – Output Latihan 5
-![Screenshot 5](screenshots/5.png)
+![Screenshot 5](screenshot/5.png)
 
 ### Latihan 6 – Form POST
 Data dikirim lewat body request, tidak muncul di URL. Data lengkap ditampilkan sebagai "Data diterima".
 
 **Screenshot 6** – Latihan 6, input valid
-![Screenshot 6](screenshots/6.png)
+![Screenshot 6](screenshot/6.png)
 
 **Screenshot 7** – Latihan 6, input kosong (validasi browser)
-![Screenshot 7](screenshots/7.png)
+![Screenshot 7](screenshot/7.png)
 
 ### Latihan 7 – Pengolahan Data Sederhana
 Form menghitung subtotal = harga × jumlah. Contoh: barang "sabun", jumlah 7, subtotal Rp14.000.
 
 **Screenshot 8** – Latihan 7, input valid
-![Screenshot 8](screenshots/8.png)
+![Screenshot 8](screenshot/8.png)
 
 ### Mini Project – Formulir Data Mahasiswa
 Form berisi nama, NIM, program studi, semester, dan email (POST). Bagian pemrosesan dipisah dari tampilan HTML. Jika valid, ringkasan data ditampilkan; jika ada error, semua pesan kesalahan ditampilkan sekaligus.
 
 **Screenshot 9** – Mini project, input valid
-![Screenshot 9](screenshots/9.png)
+![Screenshot 9](screenshot/9.png)
 
 ### Eksperimen Mandiri
 Terdapat di `eksperimen.php`: (1) rata-rata tiga nilai, (2) pencarian nama dari array lewat GET, (3) function `formatRupiah()`, (4) validasi NIM hanya angka dengan panjang 8–12 digit, (5) tombol reset. Tombol reset hanya mengosongkan isian di browser tanpa mengirim apa pun ke server, sedangkan submit mengirim request baru sehingga PHP memproses data lagi.
